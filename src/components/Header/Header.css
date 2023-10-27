@@ -1,0 +1,30 @@
+.header {
+    background-color: #3F2E3E;
+    max-height: 100px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    color: black;
+    background-color: #EFE1D1;
+    border-radius: 2cm;
+    text-align: center;
+    border: none
+}

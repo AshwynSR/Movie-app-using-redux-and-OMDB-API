@@ -1,0 +1,29 @@
+.movie-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-weight: 400;
+    color: #EFE1D1
+}
+
+.ratings {
+    padding-left: 3px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.movie-plot, .other-details {
+    margin-top: 20px;
+    line-height: 1.8rem;
+    color: #EFE1D1
+}
+
+.other-details{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+}

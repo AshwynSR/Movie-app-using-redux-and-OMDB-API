@@ -1,0 +1,21 @@
+.movie-list, .show-list {
+    margin: 20px, 0px;
+    h2 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
+
+.movie-wrapper {
+    line-height: 4rem;
+}
+
+.show-list {
+    margin-top: 2rem;
+}
